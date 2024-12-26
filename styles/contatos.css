@@ -1,0 +1,89 @@
+#contatos {
+    background-image: url(/assests/images/Background_Contacts.png);
+    background-position: center;
+    background-size: cover;
+    color: var(--base-color-gray-500);
+}
+
+#contato {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    h3 {
+        font: var(--inconsolata-subtitle);
+        color: var(--main-color-purple);
+    }
+
+    h2 {
+        font: var(--asap-title-md);
+        color: var(--base-color-gray-600);
+    }
+
+    p {
+        font: var(--maven-pro-text-md);
+        color: var(--base-color-gray-500);
+    }
+}
+
+#redes {
+    margin: 80px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .rede {
+        position: relative;
+        display: flex;
+        min-width: 400px; ;
+        gap: 12px;
+        padding: 20px;
+        align-items: center;
+        background-color: var(--base-color-gray-300);
+        border-radius: 8px;
+
+        p {
+            color: var(--base-color-gray-500);
+            margin-left: 37px;
+        }
+
+        img:first-child {
+            width: 25px;
+            position: absolute;
+        }
+
+
+
+        img:last-child {
+            margin-left: auto;  
+        }
+
+    }
+}
+
+.hover {
+    width: 25px;
+    opacity: 0;
+    position: absolute;
+}
+
+a:hover .hover {
+    opacity: 1;
+    transform: scale(1.3);
+    transition: transform 0.4s ease-in-out;
+}
+
+a:hover img:first-child {
+    opacity: 0;
+    width: 25px;
+    position: absolute;
+}
+

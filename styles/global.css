@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--base-color-gray-200);
+}
+
+:root {
+    --main-color-red: #E3646E; 
+    --main-color-purple: #BB72E9; 
+    --main-color-blue: #3996DB; 
+    --main-color-green: #82BC4F; 
+    --main-color-yellow: #EABD5F; 
+
+    --base-color-gray-100: #0D0E11; 
+    --base-color-gray-200: #16181D; 
+    --base-color-gray-300: #292C34; 
+    --base-color-gray-400: #878EA1; 
+    --base-color-gray-500: #C0C4CE; 
+    --base-color-gray-600: #E2E4E9; 
+
+    --ff-asap: 'Asap', sans-serif;  
+    --asap-title-lg: 700 56px/120% var(--ff-asap);
+    --asap-title-md: 700 24px/120% var(--ff-asap);
+    --asap-title-sm: 700 16px/120% var(--ff-asap);
+
+    --ff-Inconsolata: 'Inconsolata', sans-serif;
+    --inconsolata-subtitle: 400 20px/120% var(--ff-Inconsolata);
+
+    --ff-Maven-Pro: 'Maven Pro', sans-serif;
+    --maven-pro-text-md: 400 16px/140% var(--ff-Maven-Pro);
+    --maven-pro-text-sm: 400 14px/140% var(--ff-Maven-Pro);
+
+}
+
+header {
+    background-image: url(/assests/images/Background_Intro.png);
+    background-position: center;
+    background-size: cover;
+    margin: 60px 160px;
+    color: var(--base-color-gray-500);
+}
+
+section {
+    background-color: var(--base-color-gray-200);
+    color: var(--base-color-gray-500);
+
+    h3 {
+        color: var(--base-color-gray-600);
+    }
+}

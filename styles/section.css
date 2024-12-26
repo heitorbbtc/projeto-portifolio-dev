@@ -1,0 +1,49 @@
+#inicio {
+    margin-bottom: 120px;
+}
+
+#cards {
+    font: var(--maven-pro-text-sm);
+    border-radius: 12px;
+    object-fit: cover;
+    margin-inline: 100px;
+
+    
+    .card {
+        background-color: var(--base-color-gray-300);
+        font: var(--maven-pro-text-sm);
+        height: auto;
+        margin: auto;
+        border-radius: 12px;
+        object-fit: cover;
+        padding: 10px;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    
+        h3 {
+            margin-top: 15px;
+        }
+    
+        p {
+            margin-top: 8px;
+
+    }
+
+}
+}
+
+.titles {
+    h3{
+        font: var(--inconsolata-subtitle);
+        color: #E3646E;
+    }
+
+    h2 {
+        font: var(--asap-title-md); 
+        color: var(--base-color-gray-600);
+    }
+}
